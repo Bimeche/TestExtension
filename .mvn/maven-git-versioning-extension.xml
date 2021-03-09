@@ -1,0 +1,9 @@
+<gitVersioning>
+  <branch>
+    <pattern>master</pattern>
+    <versionFormat>${version.release}</versionFormat>
+  </branch>
+  <commit>
+    <versionFormat>${version.release}-${commit.short}-SNAPSHOT</versionFormat>
+  </commit>
+</gitVersioning>
